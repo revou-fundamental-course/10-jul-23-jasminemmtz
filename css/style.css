@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {box-sizing: border-box;}
+
+.tulisan{
+    line-height: 1.5;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.container-input{
+    background-color: whitesmoke;
+    padding-top: 1px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.radio{
+    accent-color:dodgerblue
+}
+
+.fa{
+    padding: 10px;
+    background: gainsboro;
+    color: black;
+    min-width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid black;
+}   
+
+.input-field {
+    width: 90%;
+    padding: 10px;
+    outline: none;
+    margin-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid black;
+}
+
+.hitung_bmi{
+    background-color: rgb(110, 180, 208);
+    color: white;
+    margin-left: 1px;
+    padding: 10.5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.hitung_bmi:hover{
+    background-color: rgb(51, 112, 136);
+}
+
+.reset{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    cursor: pointer;
+}
+
+.reset:hover{
+    background-color: rgb(13, 45, 58);
+    color: white;
+}
+
+.keunggulan-fitur{
+    font-size: 25px;
+    height:0px;
+    padding:0px;
+    margin-bottom: 40px;
+}
+
+.list{
+    padding: 0px 0px 0px 19px;
+}
+
+.judulHasil{
+    font-size: 25px;
+}
+
+.container-hasil{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding-top: 1px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    align-items: center;       
+}
+
+.berat_badan_lebih{
+    height:0px;
+    padding:0px;
+    margin-bottom: 10px;
+}
+
+.angka-hasil{
+    font-size: 40px;
+    height:0px;
+    padding:0px;
+    margin-top: 30px;
+    margin-bottom: 65px;
+}
+
+.hasil{
+    background-color: rgb(110, 180, 208);
+    width: 30%;
+    color: white;
+    margin-left: 1px;
+    padding: 10.5px;
+    border-radius: 5px;
+    border: none;
+    margin: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 220px;
+}
+
+.hasil:hover{
+    background-color: rgb(51, 112, 136);
+}
+
+.konsul-regis{
+    display: flex;
+    column-gap: 10px;
+}
+
+.konsultasi{
+    background-color: rgb(110, 180, 208);
+    color: white;
+    padding: 10.5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 210px;
+}
+
+.konsultasi:hover{
+    background-color: rgb(51, 112, 136);
+}
+
+.registrasi{
+    background-color: rgb(110, 180, 208);
+    color: white;
+    padding: 10.5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 210px;
+}
+
+.registrasi:hover{
+    background-color: rgb(51, 112, 136);
+}
+
+.container-penyakit{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding-top: 1px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    align-items: center;  
+}
+
+.beberapa-penyakit{
+    font-size: 20px;
+}
+
+.jenis-penyakit{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ 
+.konsultasi-registrasi{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px; 
+    margin-top: 20px;
+}
+
+.download-aplikasi{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px; 
+    margin: auto;
+    margin-left: 17px;
+}
+  
+.logo{
+    height: 35px;
+}
+
